@@ -1,11 +1,15 @@
 {
-  "name": "myappsample",
+  "name": "YarnTest",
   "version": "1.0.0",
-  "description": "Gulp using",
+  "description": "Yarn using",
   "main": "app.js",
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "gulp-watch-sass": "^1.1.4",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "gulp-concat": "^2.6.1",
@@ -16,12 +20,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ogzA/myappsample.git"
-  },
+  "repository": "git+https://github.com/ogzA/myappsample.git",
   "author": "Oğuz Akankan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ogzA/myappsample/issues"
   },

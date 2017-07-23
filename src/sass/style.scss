@@ -1,4 +1,11 @@
-$bgColor: #000;
-body {
-    background: $bgColor;
-}
+@import "customVariables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "custom";
+
+
+
+
+
+
