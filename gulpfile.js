@@ -12,6 +12,8 @@ const concat = require('gulp-concat');
     gulp.watch - Watch files and folders for changes
 */
 
+// Some pointless comments for my project.
+
 // Logs Message
 gulp.task('message', function() {
     return console.log('Gulp is running');
